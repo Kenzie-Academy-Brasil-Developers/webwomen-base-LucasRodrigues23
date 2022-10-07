@@ -1,0 +1,17 @@
+.card {
+    padding: 2.375rem;
+    gap: 28px;
+}
+
+.box-title-card {
+    gap: 28px;
+}
+
+.box-ent-loc {
+    gap: 2rem;
+}
+
+.modalities {
+    padding: 0.25rem 0.75rem;
+    background-color: var(--color-grey-3);
+}

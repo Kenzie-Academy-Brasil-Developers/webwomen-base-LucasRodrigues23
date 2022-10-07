@@ -1,1 +1,39 @@
 /* Desenvolva sua estilização aqui... */
+.fixed-background {
+    position: fixed;
+    z-index: -1;
+    height: 40.75rem;
+    object-fit: cover;
+}
+
+.main {
+    gap: 4.25rem;
+    background-color: var(--color-grey-6);
+}
+
+.box-main{
+    margin-top: 4.75rem;
+}
+
+.title-main {
+    margin-top: 4.75rem;
+}
+
+.card-list {
+    margin-top: 3.375rem;
+    gap: 2rem;
+}
+
+.aside {
+    margin-top: 5.375rem;
+    padding: 2rem 1.75rem;
+    width: 40%;
+}
+
+.aside-title {
+    margin: 2rem 0;
+}
+
+.none {
+    display: none;
+}

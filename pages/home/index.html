@@ -1,23 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/globalStyles.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
-    <title>Webwomen</title>
-    <meta
-      name="description"
-      content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../styles/globalStyles.css">
+  <link rel="stylesheet" href="../../styles/buttons.css">
+  <link rel="stylesheet" href="../../styles/card.css">
+  <link rel="stylesheet" href="../../styles/displays.css">
+  <link rel="stylesheet" href="../../styles/header.css">
+  <link rel="stylesheet" href="../../styles/texts.css">
+  <link rel="stylesheet" href="../../styles/asideCard.css">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+  <title>Webwomen</title>
+  <meta name="description" content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
       Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
-      e ao redor do mundo?"
-    />
+      e ao redor do mundo?" />
 </head>
+
 <body>
-    <main></main>
-    <script src="jobsData.js"></script>
-    <script src="index.js"></script>
+  <header class="header">
+    <div>
+      <img class="fixed-background" src="../../assets/img/header-bg.png" alt="">
+    </div>
+    <div class="box-header container flex flex-col gap-60">
+      <div class="flex al-center jus-between">
+        <img src="../../assets/img/logo.svg">
+        <div class="flex">
+          <input type="checkbox" class="button-dark-mode" id="button_dark_mode"></input>
+          <label for="button_dark_mode" class="label-dark-mode flex al-center jus-center">
+            <img id="dark_mode_icon" src="../../assets/img/moon.png">
+          </label>
+        </div>
+      </div>
+      <div class="header-text flex flex-col">
+        <h1 class="title-1 text-grey-3">Lugar de mulher é onde ela quiser!</h1>
+        <div>
+          <P class="text-1 text-grey-5 text-regular">Está procurando oportunidades de estágio, emprego ou bolsas de
+            estudo?</P>
+          <p class="text-1 text-grey-5 text-regular">Ou até mesmo oportunidades para atender eventos de tecnologia no
+            Brasil e ao redor do mundo?</P><br>
+          <p class="text-1 text-grey-5 text-semibold">Confere aqui embaixo o que temos pra você!</P>
+        </div>
+      </div>
+      <div>
+      <button class="bt-large">Ir para seção das vagas</button>
+    </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container flex box-main">
+    <section>
+      <h2 class="title-4 text-grey-1 title-main">Vagas</h2>
+      <ul id="ul_main" class="card-list flex flex-col">
+      </ul>
+    </section>
+    <section class="aside">
+      <h2 class="aside-title title-4 text-grey-1">Vagas selecionadas</h2>
+      <ul class="card-list-aside" id="ul_aside">
+      </ul>
+    </section>
+  </div>
+  </main>
+  <footer></footer>
+  <script src="../../scripts/jobsData.js"></script>
+  <script src="../../scripts/applys.js"></script>
+  <script src="../../scripts/cardsMain.js"></script>
+  <script src="../../scripts/cardsAside.js"></script>
+  <script src="./index.js"></script>
 </body>
+
 </html>

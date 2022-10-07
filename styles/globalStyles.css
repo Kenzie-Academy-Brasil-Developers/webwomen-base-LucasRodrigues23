@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  list-style: none;
 }
 
 img {
@@ -20,6 +21,7 @@ img {
   --color-grey-4:  #e9ecef;
   --color-grey-5:  #f1f3f5;
   --color-grey-6:  #ffffff;
+  --color-opacity-1: rgba(0,0,0,0.5);
   --radius-default: 0.5rem;
 
   --title-1: 3rem;
@@ -38,11 +40,9 @@ body {
 }
 
 .container {
-  width: 76rem;
+  width: 90%;
   max-width: 100%;
   margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 @media(max-width: 991px){
