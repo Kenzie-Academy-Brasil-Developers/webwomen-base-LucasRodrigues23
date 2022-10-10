@@ -15,3 +15,7 @@
     padding: 0.25rem 0.75rem;
     background-color: var(--color-grey-3);
 }
+
+.box-madel-bt {
+    align-items: flex-end;
+}

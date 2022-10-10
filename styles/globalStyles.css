@@ -52,4 +52,30 @@ body {
     --title-3: calc(2rem / 1.2);
     --text-1:  calc(1.125rem / 1.2);
   }
+  .header {
+    width: 100%;
+    height: 40.25rem;
+}
+
+  .box-header {
+    padding-top: 6.2rem;
+    max-height: 40rem;
+}
+  .box-main {
+    flex-direction: column;
+  }
+  .box-madel-bt {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .bt-apply {
+    width: 100%;
+  }
+
+  .aside {
+    width: 100%;
+  }
+
 }

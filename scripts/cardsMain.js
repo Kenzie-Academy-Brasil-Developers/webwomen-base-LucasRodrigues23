@@ -35,7 +35,7 @@ function mainCardCreator(obj) {
     description.classList = 'text-2 text-grey-2'
     description.innerText = obj.descrition
     const boxMadelButton = document.createElement('div')
-    boxMadelButton.classList = 'flex al-end jus-between'
+    boxMadelButton.classList = 'box-madel-bt flex jus-between'
     const modalities = document.createElement('p')
     modalities.classList = 'modalities text-3 text-grey-2'
     modalities.innerText = obj.modalities
